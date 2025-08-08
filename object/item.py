@@ -1,4 +1,3 @@
-import numpy as np
 from dorna2 import Pose
 
 class Dorna_TA(Pose):

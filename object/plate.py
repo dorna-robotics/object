@@ -10,7 +10,7 @@ class Charuco_board(Pose):
         }
 
         for i in range(3):
-            anchors[str(i)] = [(2*i+1)*30+3, 0, 0, 0, 0, 0]
+            anchors[str(i)] = [(2*i+1)*30+3, (0)*30+3, 0, 0, 0, 0]
         for i in range(4):
             anchors[str(3+i)] = [(2*i)*30+3, (1)*30+3, 0, 0, 0, 0]
         for i in range(3):

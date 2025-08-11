@@ -22,7 +22,7 @@ class Charuco_board(Pose):
         for i in range(4):
             anchors[str(17+i)] = [(2*i)*30+3, (5)*30+3, 0, 0, 0, 0]
         for i in range(3):
-            anchors[str(18+i)] = [(2*i+1)*30+3, (6)*30+3, 0, 0, 0, 0]
+            anchors[str(21+i)] = [(2*i+1)*30+3, (6)*30+3, 0, 0, 0, 0]
 
 
         super().__init__(name, pose, parent, anchors)

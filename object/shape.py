@@ -3,8 +3,8 @@ from dorna2 import Pose
 from dorna2 import pose as dorna_pose
 
 
-class Sphere(Pose):
-    def __init__(self, name="sphere", num_sample=50, num_sub_sample=8, radius=250, hemisphere='south', cap_deg=10, pose=None, parent=None):
+class Ball(Pose):
+    def __init__(self, name="ball", num_sample=50, num_sub_sample=8, radius=250, hemisphere='south', cap_deg=10, pose=None, parent=None):
         num_sub_sample = max(1, num_sub_sample)  # ensure at least one sub-sample
         anchors = {
             "o": [0, 0, 0, 0, 0, 0],

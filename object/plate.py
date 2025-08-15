@@ -12,7 +12,7 @@ class Charuco_board(Pose):
         # chess corners
         for i in range(8):
             for j in range(8):
-                anchors[f"c{i}_{j}"] = [i*30, j*30, 0, 0, 0, 0]
+                anchors[f"c_{i}_{j}"] = [i*30, j*30, 0, 0, 0, 0]
         # aruco
         for i in range(3):
             anchors[f"a_{i}_tl"] = [(2*i+1)*30+3, (0)*30+3, 0, 0, 0, 0]

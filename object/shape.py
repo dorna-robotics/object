@@ -25,7 +25,7 @@ class Ball(Pose):
         super().__init__(name, pose, parent, anchors)
 
 
-def sample_spherical_cap_fibonacci_T(n, radius, cap_deg, hemisphere='north'):
+def sample_spherical_cap_fibonacci_T(n, radius, cap_deg, hemisphere='south'):
     """
     n: number of poses
     radius: sphere radius

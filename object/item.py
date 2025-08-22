@@ -59,3 +59,13 @@ class Fixture_plate(Pose):
 
 
         super().__init__(name, pose, parent, anchors)
+
+
+class Tool_changer(Pose):
+    def __init__(self, name="tool_changer", pose=None, parent=None):
+        anchors = {
+            "A2": [-25, -25, 0, 0, 0, 0],
+            "B1": [25, 25, 0 , 0, 0, 0],
+            "connect": [-46, 0, 167.5, 180, 0, 0],
+        }
+        super().__init__(name, pose, parent, anchors)
